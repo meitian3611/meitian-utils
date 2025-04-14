@@ -1,4 +1,5 @@
 # Frontend Utils Library
+- **基于Cursor IDE + claude3.7 自动生成的前端项目**
 
 一个功能丰富的前端工具库，提供日期、文本、数字和数据格式处理的实用函数。
 

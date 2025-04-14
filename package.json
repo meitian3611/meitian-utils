@@ -1,7 +1,7 @@
 {
   "name": "@meitian/utils",
   "version": "1.0.0",
-  "description": "前端工具库，处理日期、文字、数字和数据格式",
+  "description": "一个基于Cursor IDE + claude3.7 自动生成的前端工具库，用于处理日期、文字、数字和数据格式",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meitian3611/@meitian/utils.git"
+    "url": "https://github.com/meitian3611/meitian-utils"
   },
   "bugs": {
-    "url": "https://github.com/meitian3611/@meitian/utils/issues"
+    "url": "https://github.com/meitian3611/meitian-utils/issues"
   },
-  "homepage": "https://github.com/meitian3611/@meitian/utils#readme",
+  "homepage": "https://github.com/meitian3611/meitian-utils#readme",
   "files": [
     "dist",
     "LICENSE",
