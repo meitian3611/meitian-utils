@@ -1,0 +1,28 @@
+# 源代码，只发布编译后的代码
+src/
+tests/
+
+# 配置文件
+.gitignore
+.npmignore
+tsconfig.json
+jest.config.js
+.eslintrc.js
+.github/
+
+# 文档和示例
+docs/
+examples/
+
+# 开发工具
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# 其他
+.DS_Store
+.vscode/
+.idea/
+*.tgz 
