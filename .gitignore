@@ -9,6 +9,7 @@ yarn.lock
 /dist
 /lib
 /es
+/coverage
 
 # IDE
 .idea/
