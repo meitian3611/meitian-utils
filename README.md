@@ -116,6 +116,7 @@ console.log(sortArrayByKey(users, 'age')); // [{ name: '李四', age: 25 }, { na
 ### 数字工具 (number)
 
 - `formatNumber(num, options)`: 格式化数字为千分位分隔的字符串
+- `unFormatNumber(num)`: 将千分位分隔的字符串转换为数字
 - `formatCurrency(amount, options)`: 格式化金额为货币字符串
 - `numberToChinese(num)`: 将数字转换为中文大写金额
 - `abbreviateNumber(num, digits)`: 将数字转换为指定数量级的简写
