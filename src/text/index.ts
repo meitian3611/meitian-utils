@@ -9,7 +9,7 @@
  * @param ellipsis 省略号符号，默认为"..."
  * @returns 截断后的文本
  */
-export function truncate(text: string, maxLength: number, ellipsis: string = '...'): string {
+export function truncate(text: string, maxLength: number, ellipsis = '...'): string {
   if (!text || text.length <= maxLength) {
     return text;
   }
@@ -126,9 +126,9 @@ export function isEmpty(text: string | null | undefined): boolean {
  */
 export function maskString(
   text: string,
-  startVisible: number = 3,
-  endVisible: number = 4,
-  mask: string = '*'
+  startVisible = 3,
+  endVisible = 4,
+  mask = '*'
 ): string {
   if (!text) return '';
   

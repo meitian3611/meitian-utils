@@ -92,7 +92,7 @@ export function deepEqual(obj1: any, obj2: any): boolean {
  * @param prefix 键前缀，用于递归
  * @returns 扁平化后的对象
  */
-export function flattenObject(obj: Record<string, any>, prefix: string = ''): Record<string, any> {
+export function flattenObject(obj: Record<string, any>, prefix = ''): Record<string, any> {
   const result: Record<string, any> = {};
   
   for (const key in obj) {
@@ -277,7 +277,7 @@ export function uniqueArray<T>(array: T[], key?: string): T[] {
  * @param step 步长，默认为1
  * @returns 数字数组
  */
-export function range(start: number, end: number, step: number = 1): number[] {
+export function range(start: number, end: number, step = 1): number[] {
   if (step === 0) {
     throw new Error('步长不能为0');
   }

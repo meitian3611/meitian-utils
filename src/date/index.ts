@@ -8,7 +8,7 @@
  * @param format 格式模板，如 'YYYY-MM-DD HH:mm:ss'
  * @returns 格式化后的日期字符串
  */
-export function formatDate(date: Date | number | string, format: string = 'YYYY-MM-DD'): string {
+export function formatDate(date: Date | number | string, format = 'YYYY-MM-DD'): string {
   const d = new Date(date);
   
   if (isNaN(d.getTime())) {

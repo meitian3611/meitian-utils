@@ -165,8 +165,8 @@ export function numberToChinese(num: number): string {
 
     // 处理整数部分
     if (integerPart > 0) {
-        let intStr = integerPart.toString();
-        let len = intStr.length;
+        const intStr = integerPart.toString();
+        const len = intStr.length;
 
         for (let i = 0; i < len; i++) {
             const digit = parseInt(intStr[i]);
@@ -204,7 +204,7 @@ export function numberToChinese(num: number): string {
  * @param digits 保留的小数位数
  * @returns 简写后的字符串
  */
-export function abbreviateNumber(num: number, digits: number = 1): string {
+export function abbreviateNumber(num: number, digits = 1): string {
     if (isNaN(num)) return "0";
 
     const absNum = Math.abs(num);
@@ -234,7 +234,7 @@ export function abbreviateNumber(num: number, digits: number = 1): string {
 export function randomNumber(
     min: number,
     max: number,
-    isInteger: boolean = true
+    isInteger = true
 ): number {
     if (min > max) {
         [min, max] = [max, min];
@@ -313,7 +313,7 @@ export const preciseCalc = {
     /**
      * 四舍五入到指定小数位
      */
-    round(a: number, decimals: number = 0): number {
+    round(a: number, decimals = 0): number {
         const multiplier = Math.pow(10, decimals);
         return Math.round(a * multiplier) / multiplier;
     },
